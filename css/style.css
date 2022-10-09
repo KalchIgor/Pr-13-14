@@ -12,6 +12,15 @@ body {
 }
 
 /* reset */
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 /* Стили для обнуления верхних отступов у элементов */
 h1,
 h2,
@@ -49,4 +58,56 @@ button {
   cursor: pointer;
 }
 
-/* header */
+.container {
+  width: 1360px;
+  padding-left: 28px;
+  padding-right: 28px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* about */
+.about {
+  padding: 122px 0 19px 0;
+  background-color: #f4f4f4;
+}
+
+.about .container {
+  padding-right: 66px;
+  padding-left: 66px;
+}
+
+.about-list {
+  display: flex;
+  gap: 71px;
+}
+
+.about-item {
+  width: calc((100% - 142px) / 3);
+}
+
+.about-title {
+  margin-bottom: 16px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+}
+
+.about-text {
+  line-height: 1.56;
+  text-align: center;
+}
