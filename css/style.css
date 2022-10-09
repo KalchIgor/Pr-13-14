@@ -49,4 +49,76 @@ button {
   cursor: pointer;
 }
 
+.container{
+  width: 1360px;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
 /* header */
+.header{
+background-color: #5E5E5E;
+}
+.logo-type{
+  margin-right: auto;
+
+  font-size: 35px;
+  line-height: 1.21;
+  color: var(--secondary-text-color);
+}
+
+.accent{
+  color: var(--accent-color);
+}
+
+.header-nav{
+  display: flex;
+  align-items: center;
+}
+
+
+.header-nav-list{
+  display: flex;
+  gap: 38px;
+}
+
+.header-nav-link{
+  padding: 21px 0;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
+
+/* hero */
+.hero{
+  padding: 259px 0 284px 0;
+  display: block;
+  text-align: center;
+
+  background-color: #5E5E5E;
+}
+.hero-title{
+  margin-bottom: 45px;
+
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  color: #E9E9E9;
+}
+
+.hero-text{
+  margin-bottom: 29px;
+
+  font-size: 22px;
+  line-height: 1.67;
+  color: #E9E9E9;
+}
+
+.hero-button{
+  padding: 10px 30px 10px 41px;
+
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+
+  background: var(--accent-color);
+  border-radius: 5px;
+}
