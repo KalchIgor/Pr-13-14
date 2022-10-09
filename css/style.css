@@ -58,6 +58,7 @@ button {
   cursor: pointer;
 }
 
+/* utils */
 .container {
   width: 1360px;
   padding-left: 28px;
@@ -78,6 +79,75 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+/* header */
+.header {
+  background-color: #5e5e5e;
+}
+.logo-type {
+  margin-right: auto;
+
+  font-size: 35px;
+  line-height: 1.21;
+  color: var(--secondary-text-color);
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 38px;
+}
+
+.header-nav-link {
+  display: inline-block;
+  padding: 21px 0;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
+
+/* hero */
+.hero {
+  padding: 259px 0 284px 0;
+  display: block;
+  text-align: center;
+
+  background-color: #5e5e5e;
+}
+.hero-title {
+  margin-bottom: 45px;
+
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  color: #e9e9e9;
+}
+
+.hero-text {
+  margin-bottom: 29px;
+
+  font-size: 22px;
+  line-height: 1.67;
+  color: #e9e9e9;
+}
+
+.hero-button {
+  padding: 10px 30px 10px 41px;
+
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+
+  background: var(--accent-color);
+  border-radius: 5px;
+}
+
 /* about */
 .about {
   padding: 122px 0 19px 0;
