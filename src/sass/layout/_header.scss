@@ -1,0 +1,41 @@
+.header {
+  background-color: #5e5e5e;
+}
+
+.logo-type {
+  margin-right: auto;
+
+  font-size: 35px;
+  line-height: 1.21;
+  color: var(--secondary-text-color);
+
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  margin-right: 10px;
+}
+
+.accent {
+  color: var(--accent-color);
+
+  margin-right: 12px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 38px;
+}
+
+.header-nav-link {
+  display: inline-block;
+  padding: 21px 0;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
